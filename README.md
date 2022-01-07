@@ -84,7 +84,7 @@ Don't worry if this is confusing now, you'll soon learn what each line does. For
 
 Also unlike a CSV, a SQL database can contain multiple related SQL tables. To demonstrate, here is an outline of a database structure:
 
-<img src="Database-Schema.png" />
+<img src="https://github.com/learn-co-curriculum/dsc-getting-started-sql-intro/raw/master/Database-Schema.png" />
 
 This kind of diagram is called an ***entity relationship diagram (ERD)*** because it shows the relationships between tables. It does not give us any information about the specific data stored in the database, but rather the metadata.
 
