@@ -55,13 +55,15 @@ CREATE TABLE people (
 
 As a data scientist, your primary use case of SQL will be querying data stored within databases. To do this, you connect to the database with some sort of tool.
 
-* Most SQL databases have an associated command-line interface where you can write SQL queries without any additional languages or tools. For SQLite, this is called `sqlite3` ([documentation here](https://sqlite.org/cli.html))
-* You can also connect through a different coding language such as Python. For SQLite, the Python module is called `sqlite3` ([documentation here](https://docs.python.org/3/library/sqlite3.html)). (Yes, the command-line interface and Python module have the same name.)
-* One other approach is using a GUI (graphical user interface) tool. For SQLite, a good one is DB Browser for SQLite ([documentation here](https://sqlitebrowser.org/))
+* Most SQL databases have an associated **command-line interface** where you can write SQL queries without any additional languages or tools. For SQLite, this is called `sqlite3` ([documentation here](https://sqlite.org/cli.html))
+* You can also connect through a different **coding language such as Python**. For SQLite, the Python module is called `sqlite3` ([documentation here](https://docs.python.org/3/library/sqlite3.html)). (Yes, the command-line interface and Python module have the same name.)
+* One other approach is using a **GUI (graphical user interface)** tool. For SQLite, a good one is DB Browser for SQLite ([documentation here](https://sqlitebrowser.org/))
 
-Once you're connected to the database, you can then read, write, update, and delete data from its tables. (Similar to other kinds of file permissions, you might only have the ability to perform some of these actions but not others, e.g. read information from the database but not delete information.)
+Once you're connected to the database, you can then read, write, update, and delete data from its tables. These commands are called ***queries*** and are written using the SQL language.
 
-To retrieve data from one or more tables you usually use a `SELECT` statement.
+(Similar to other kinds of file permissions, you might only have the ability to perform some of these actions but not others, e.g. read information from the database but not delete information.)
+
+To retrieve data from one or more tables you usually use a `SELECT` statement in your query.
 
 A simple query would look something like this:
 
